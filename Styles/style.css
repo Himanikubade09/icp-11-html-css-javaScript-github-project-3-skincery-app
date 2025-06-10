@@ -94,3 +94,37 @@
             margin-right: 10px;
         }
 
+        .service-cards
+        {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .service{
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 160px;
+            height: 180px;
+            box-shadow: 3px 6px 3px 6px grey;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            align-items: center;
+            margin-left: 40px;
+        }
+
+        .service-img{
+            width: 80px;
+            margin-left: 35px;
+            margin-top: 20px;
+        }
+
+        .heading{
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .service-para{
+            font-size: 22px;
+            text-align: center;
+        }
