@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Skin Care</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3b3a4; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #d6d9e0; 
+      padding: 40px;
+        width: 450px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .products {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: space-around;
+        height: 300px;
+        flex-wrap: wrap;
+         gap: 60px;
+         margin-bottom: 30px;
+         padding-right: 30px;
+    }
+
+    .product {
+      width: 100px;
+    }
+
+    .product img {
+      width: 150px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #aaa;
+    }
+
+    .product p {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: 2px solid #555;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Skin Care</h1>
+    <div class="products">
+      <div class="product">
+        <img src="../images/face-wash.jpg" alt="Face Wash">
+        <a href="../pages/facewash.html"><p>Face Wash</p></a>
+      </div>
+      <div class="product">
+        <img src="../images/moisturizer.jpg" alt="Moisturizer">
+       <a href="../pages/moisturizer.html"><p>Moisturizer</p></a>
+      </div>
+      <div class="product">
+        <img src="../images/sunscreen.webp" alt="Sunscreen">
+        <a href="../pages/sunscreen.html"><p>Sunscreen</p></a>
+      </div>
+    </div>
+    <button class="button" onclick="proceed()">Continue</button>
+  </div>
+
+  <script>
+    function proceed() {
+      alert("Proceeding to the next step!");
+    }
+  </script>
+
+</body>
+</html>
