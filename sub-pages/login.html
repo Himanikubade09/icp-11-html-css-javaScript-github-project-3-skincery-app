@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/9199668c31.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./Styles/style.css">
-    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/login.css">
 </head>
 <body>
     <div class="nav-bar">
-        <img src="./images/logo.png" class="logo" alt="logo">
-        <a href="#" class="menus">Home</a><a href="#" class="menus">Products</a><a href="#" class="menus">About US</a><a href="./sub-pages/login.html" class="menus">Login/Register</a>
+        <img src="../images/logo.png" class="logo" alt="logo">
+        <a href="#" class="menus">Home</a><a href="#" class="menus">Products</a><a href="#" class="menus">About US</a><a href="#" class="menus">Login/Register</a>
+    </div>
+    
+    <div class="login-form">
+        <img src="../images/login.png" alt="login" class="login-img">
+        <label for="username">Enter your name:</label>
+        <input type="text" class="input" id="firstname" placeholder="Username"><br>
+        <label for="username">Enter your name:</label>
+        <input type="password" class="input" id="lastname" placeholder="Password"><br>
+
+        <button class="login-btn" id="login-now-btn" onclick="show()"><a href="../index.html" class="login-now">Login Now</a></button>
+        <br>
+
+        <a href="#" class="new">Register</a> <a href="#" class="new">Forgot password</a>
     </div>
 
     <div class="footer">
@@ -38,11 +50,8 @@
             &copy; Skincery. All rights reserved.
         </div>
 
-    
-    <div class="navigation-arrow">
-        <a href="#"><i class="fa-regular fa-circle-up"></i></a>
-    </div>
+    <script src="../Scripts/login.js">
 
-        <script src="./Scripts/script.js"></script>
+    </script>
 </body>
 </html>

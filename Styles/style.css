@@ -37,6 +37,17 @@
             cursor: pointer;
         }
 
+        button{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 40%;
+        background-color: orange;
+        border-radius: 20px;
+        height: 40px;
+        width: 100px;
+        cursor: pointer;
+        }
+
         .footer{
             background-color: orange;
             display: flex;
