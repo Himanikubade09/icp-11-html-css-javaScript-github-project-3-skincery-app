@@ -1,5 +1,74 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+        body{
+            margin: 0;
+        }
+        .nav-bar{
+            height: 70px;
+            border: 2px solid black;
+            border-style: none;
+            display: flex;
+            align-items: center;
+            background-color: orange; 
+            border-radius: 10px;
+            z-index: 1000; 
+            margin-top: -10px; 
+            margin-left: -10px;
+            margin-right: -10px;              
+        }
+
+        .logo{
+            width: 100px;
+            margin-right: auto;
+            margin-left: 20px;
+        }
+
+        .menus{
+            text-decoration: none;
+            color: blue;
+            padding: 20px;
+            font-size: 20px;  
+        }
+
+        .footer{
+            background-color: orange;
+            display: flex;
+            padding: 50px;
+            justify-content: space-between;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .footer-subdiv{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .footer-links{
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        .footer-heading{
+            font-size: 23px;
+        }
+
+        .footer-para , .footer-links , .links{
+            font-size: 20px;
+        }
+
+        .footer-bottom{
+            background-color: orange;
+            text-align: center;
+             height: 50px;
+            border: 2px solid black;
+            border-style: none;
+            box-shadow: 0px 0px 4px 3px white;
+            padding-top: 20px;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+
+        .fa-solid{
+            margin-right: 10px;
+        }
