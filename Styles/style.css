@@ -28,6 +28,15 @@
             font-size: 20px;  
         }
 
+        .navigation-arrow{
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            font-size: 50px;
+            z-index: 900;
+            cursor: pointer;
+        }
+
         .footer{
             background-color: orange;
             display: flex;
@@ -72,3 +81,4 @@
         .fa-solid{
             margin-right: 10px;
         }
+
