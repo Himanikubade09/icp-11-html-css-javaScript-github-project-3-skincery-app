@@ -16,6 +16,10 @@
             margin-right: -10px;              
         }
 
+        #time{
+            margin-right: 10px;
+        }
+
         .logo{
             width: 100px;
             margin-right: auto;
