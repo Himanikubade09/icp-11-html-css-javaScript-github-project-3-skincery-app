@@ -83,3 +83,21 @@ label{
     margin-left: 70px;
     margin-right: 40px;
 }
+
+.login-now{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.login-btn{
+      background-color: navy;
+      border-radius: 20px;
+      height: 30px;
+      margin-left: 33%;
+      margin-bottom: 40px;
+      margin-top: 30px;
+
+}
+
