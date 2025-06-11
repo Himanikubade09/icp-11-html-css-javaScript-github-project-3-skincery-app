@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Moisturizer Products</title>
+  <link rel="stylesheet" href="../Styles/moisturizer.css"/>
+</head>
+<body>
+
+  <h1>Moisturizer Products</h1>
+
+  <div class="products-container">
+    <div class="product-card">
+      <img src="../images/moisturizer-product1.webp" alt="HydraGlow">
+      <h2 class="product-title">HydraGlow</h2>
+      <p class="product-description">Lightweight hydration for everyday use.</p>
+      <p class="product-price">₹499</p>
+      <button class="buy-btn" onclick="addToCart('HydraGlow')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="../images/moisturizer-product2.webp" alt="Smooth Dew">
+      <h2 class="product-title">Smooth Dew</h2>
+      <p class="product-description">Rich cream for extra dry skin.</p>
+      <p class="product-price">₹599</p>
+      <button class="buy-btn" onclick="addToCart('Smooth Dew')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="../images/moisturizer-product3..avif" alt="FreshHydra">
+      <h2 class="product-title">FreshHydra</h2>
+      <p class="product-description">Non-greasy, aloe-enriched moisturizer.</p>
+      <p class="product-price">₹429</p>
+      <button class="buy-btn" onclick="addToCart('FreshHydra')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="../images/moisturizer-product4.webp" alt="GlowMist">
+      <h2 class="product-title">GlowMist</h2>
+      <p class="product-description">For radiant and glowing skin daily.</p>
+      <p class="product-price">₹549</p>
+      <button class="buy-btn" onclick="addToCart('GlowMist')">Add to Cart</button>
+    </div>
+  </div>
+
+  <script>
+    function addToCart(productName) {
+      alert(productName + " added to cart!");
+    }
+  </script>
+
+</body>
+</html>

@@ -24,7 +24,7 @@
 
         .menus{
             text-decoration: none;
-            color: blue;
+            color: black;
             padding: 20px;
             font-size: 20px;  
         }
@@ -38,19 +38,30 @@
             cursor: pointer;
         }
 
-        button{
-        margin-top: 20px;
-        margin-bottom: 50px;
-        margin-left: 40%;
-        background-color: orange;
-        border-radius: 20px;
-        height: 40px;
-        width: 100px;
-        cursor: pointer;
+        .navigation-arrow:hover{
+            color: #C4E1E6;
+            transition: 0.5s ease-in-out;
         }
+        .navigation-arrow i{
+            color: black;
+        }
+        .btn{
+            background-color: #C4E1E6;
+            border: 2px solid black;
+            border-style: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0px 0px 4px 3px white;
 
+        }
+        .btn:hover{
+            background-color: #A0D3E8;
+            transition: 0.5s ease-in-out;
+        }
         .footer{
-            background-color: orange;
+            background-color:#C4E1E6;
             display: flex;
             padding: 50px;
             justify-content: space-between;
@@ -79,7 +90,7 @@
         }
 
         .footer-bottom{
-            background-color: orange;
+            background-color:#C4E1E6;
             text-align: center;
              height: 50px;
             border: 2px solid black;
