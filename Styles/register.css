@@ -1,5 +1,5 @@
 body{
-    background-color: #FCEF91;
+    background-color: whitesmoke
 }
 
 .login-form{
@@ -12,7 +12,7 @@ body{
     margin-bottom: 50px;
     padding: 40px;
     border-radius: 30px;
-    box-shadow: 4px 4px 14px 4px rgb(254, 93, 38);
+    box-shadow: 4px 4px 14px 4px #8DBCC7;
 }
 
 .login-form:hover{

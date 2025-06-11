@@ -7,7 +7,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f3b3a4; 
+      background-color: #C4E1E6; 
       display: flex;
       justify-content: center;
       align-items: center;
@@ -17,7 +17,7 @@
     .container {
       background-color: #d6d9e0; 
       padding: 40px;
-        width: 450px;
+      width: 500px;
       border-radius: 10px;
       text-align: center;
       box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -28,15 +28,10 @@
     }
 
     .products {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: space-around;
-        height: 300px;
-        flex-wrap: wrap;
-         gap: 60px;
-         margin-bottom: 30px;
-         padding-right: 30px;
+       display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 30px;
     }
 
     .product {
@@ -44,30 +39,53 @@
     }
 
     .product img {
-      width: 150px;
-      height: 200px;
+       width: 100%;
+      height: 120px;
       object-fit: cover;
       border-radius: 8px;
       border: 1px solid #aaa;
+    }
+    .product img:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease;
     }
 
     .product p {
       margin-top: 10px;
       font-weight: bold;
     }
+     .btn{
+            background: #8DBCC7;
+           color: black;
+            padding: 8px 15px;
+            padding-right: 5px;
+            padding-left: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 8px;
+
+        }
+        .btn:hover{
+            background-color: #A0D3E8;
+            transition: 0.5s ease-in-out;
+        }
 
     .button {
-      padding: 10px 20px;
-      background-color: white;
-      color: black;
-      font-weight: bold;
-      border: 2px solid #555;
-      border-radius: 5px;
-      cursor: pointer;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: black;
+        background-color: #8DBCC7;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
     }
 
-    .button:hover {
-      background-color: #ddd;
+    .btn:hover {
+        background-color: #79c1da;
+        transform: scale(1.05);
     }
   </style>
 </head>
@@ -78,15 +96,15 @@
     <div class="products">
       <div class="product">
         <img src="../images/face-wash.jpg" alt="Face Wash">
-        <a href="../pages/facewash.html"><p>Face Wash</p></a>
+         <a href="../pages/facewash.html" class="btn">face-wash</a>
       </div>
       <div class="product">
         <img src="../images/moisturizer.jpg" alt="Moisturizer">
-       <a href="../pages/moisturizer.html"><p>Moisturizer</p></a>
+       <a href="../pages/moisturizer.html" class="btn">Moisturizer</a>
       </div>
       <div class="product">
         <img src="../images/sunscreen.webp" alt="Sunscreen">
-        <a href="../pages/sunscreen.html"><p>Sunscreen</p></a>
+        <a href="../pages/sunscreen.html" class="btn">Sunscreen</a>
       </div>
     </div>
     <button class="button" onclick="proceed()">Continue</button>

@@ -1,5 +1,5 @@
 body{
-    background-color: #EBFFD8;
+    background-color: white
 }
 
 .login-form{
@@ -12,11 +12,11 @@ body{
     margin-bottom: 50px;
     padding: 40px;
     border-radius: 30px;
-    box-shadow: 4px 4px 14px 4px rgb(254, 93, 38);
+    box-shadow:#8DBCC7;
 }
 
 .login-form:hover{
-    box-shadow: 4px 4px 14px 4px red;
+    box-shadow: 0 0 20px #6cc1d4;
     transition: 2s ease-in-out;
 }
 
@@ -49,8 +49,14 @@ label{
 }
 
 .login-now{
-    text-decoration:none;
-    color: aliceblue;
+      background-color: #8DBCC7;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      font-size: 15px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
 }
 
 .login-now:hover{
