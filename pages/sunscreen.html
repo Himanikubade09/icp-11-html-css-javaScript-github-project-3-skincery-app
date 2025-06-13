@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Moisturizer Products</title>
+  <link rel="stylesheet" href="../Styles/moisturizer.css"/>
+</head>
+<body>
+
+  <h1>Sunscreen</h1>
+
+  <div class="products-container">
+    <div class="product-card">
+      <img src="../images/sunscreen-product-1.jpg" alt="HydraGlow">
+      <h2 class="product-title">Darma-co</h2>
+      <p class="product-description">C-Cinamide Radiance Sunscreen Aqua Gel with SPF 50 & PA++++</p>
+      <p class="product-price">₹490</p>
+      <button class="buy-btn" onclick="addToCart('HydraGlow')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="../images/sunscreen-product-2.webp" alt="Smooth Dew">
+      <h2 class="product-title">hyphen</h2>
+      <p class="product-description">Matte Max Velvet Touch Sunscreen SPF 70+ PA++++</p>
+      <p class="product-price">₹520</p>
+      <button class="buy-btn" onclick="addToCart('Smooth Dew')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="../images/sunscreen-product-3.webp" alt="FreshHydra">
+      <h2 class="product-title">Bellavita</h2>
+      <p class="product-description">Hydrating Sunscreen SPF 50 PA++++ </p>
+      <p class="product-price">₹620</p>
+      <button class="buy-btn" onclick="addToCart('FreshHydra')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="../images/sunscreen-product-4.avif" alt="GlowMist">
+      <h2 class="product-title">mamaearth</h2>
+      <p class="product-description">HydraGel Indian Sunscreen with Aloe Vera and Raspberry for Sun Protection </p>
+      <p class="product-price">₹550</p>
+      <button class="buy-btn" onclick="addToCart('GlowMist')">Add to Cart</button>
+    </div>
+
+     <div class="product-card">
+      <img src="../images/sunscreen-product-5.jpg" alt="AquaSheen">
+      <h2 class="product-title">minimalist</h2>
+      <p class="product-description">SPF 50 Sunscreen</p>
+      <p class="product-price">₹750</p>
+      <button class="buy-btn" onclick="addToCart('AquaSheen')">Add to Cart</button>
+    </div>
+
+    
+    <div class="product-card">
+      <img src="../images/sunscreen-product-6.avif" alt="SilkTouch">
+      <h2 class="product-title">Garnier</h2>
+      <p class="product-description">Garnier Super UV Invisible Air Mist Sunscreen</p>
+      <p class="product-price">₹850</p>
+      <button class="buy-btn" onclick="addToCart('SilkTouch')">Add to Cart</button>
+    </div>
+
+   
+    <div class="product-card">
+      <img src="../images/sunscreen-product-7.avif" alt="Daily Bloom">
+      <h2 class="product-title">Cetaphil</h2>
+      <p class="product-description">Cetaphil Sun Light Gel SPF50+</p>
+      <p class="product-price">₹550</p>
+      <button class="buy-btn" onclick="addToCart('Daily Bloom')">Add to Cart</button>
+    </div>
+
+
+    <div class="product-card">
+      <img src="../images/sunscreen-product-8.webp" alt="SkinQuench">
+      <h2 class="product-title">suncote</h2>
+      <p class="product-description">suncote gel sunscreen</p>
+      <p class="product-price">₹750</p>
+      <button class="buy-btn" onclick="addToCart('SkinQuench')">Add to Cart</button>
+    </div>
+  </div>
+
+  <script>
+    function addToCart(productName) {
+      alert(productName + " added to cart!");
+    }
+  </script>
+
+</body>
+</html>
