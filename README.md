@@ -27,5 +27,4 @@ Skincery is a responsive and modern website for showcasing skincare products and
 
 ---
 
-
-
+## Contributor
