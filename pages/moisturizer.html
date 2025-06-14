@@ -4,11 +4,15 @@
   <meta charset="UTF-8" />
   <title>Moisturizer Products</title>
   <link rel="stylesheet" href="../Styles/moisturizer.css"/>
+  <link rel="stylesheet" href="../Styles/style.css">
 </head>
 <body>
+  <div class="nav-bar">
+        <img src="../images/logo.png" class="logo" alt="logo">
+        <a href="../index.html" class="menus">Home</a><a href="products.html" class="menus">Products</a><a href="../sub-pages/aboutus.html" class="menus">About US</a><a href="../sub-pages/login.html" class="menus">Login/Register</a><h4>Time<br><span id="time">00 : 00 : 00</span></h4>
+    </div>
 
   <h1>Moisturizer</h1>
-
   <div class="products-container">
     <div class="product-card">
       <img src="../images/moisturizer-product1.webp" alt="HydraGlow">
@@ -78,11 +82,37 @@
     </div>
   </div>
 
+  <div class="footer">
+        <div class="footer-subdiv">
+        <h3 class="footer-heading">About Us</h3>
+        <p class="footer-para">Your skin deserves the best care. We provide gentle and <br> effective skincare products made with love and science.</p>
+        </div>
+
+        <div class="footer-subdiv">
+            <h3 class="footer-heading">Links</h3>
+            <a href="../index.html" class="footer-links">Home</a><a href="products.html" class="footer-links">Products</a><a href="../sub-pages/aboutus.html" class="footer-links">About US</a><a href="../sub-pages/login.html" class="footer-links">Login/Register</a>
+        </div>
+
+        <div class="footer-subdiv">
+            <h3 class="footer-heading">Contact Info</h3>
+            
+            <i class="fa-solid fa-phone"></i><a  class="links" href="tel:9999999999">9999999999</a><br><br>
+            <i class="fa-solid fa-envelope"></i><a  class="links" href="mailto:abc@gmail.com">abc@gmail.com</a> <br><br>
+            <i class="fa-solid fa-location-dot"></i><span class="links">Mumbai</span>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+            &copy; Skincery. All rights reserved.
+        </div>
+
   <script>
     function addToCart(productName) {
       alert(productName + " added to cart!");
     }
   </script>
+
+  <script src="../Scripts/time.js"></script>
 
 </body>
 </html>
