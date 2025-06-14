@@ -16,7 +16,7 @@ body{
 }
 
 .login-form:hover{
-    box-shadow: 4px 4px 14px 4px red;
+    box-shadow: 4px 4px 14px 4px #EBFFD8;
     transition: 2s ease-in-out;
 }
 
@@ -92,7 +92,7 @@ label{
 }
 
 .login-btn{
-      background-color: navy;
+      background-color: rgb(12, 12, 97);
       border-radius: 20px;
       height: 30px;
       margin-left: 33%;

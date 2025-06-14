@@ -6,115 +6,108 @@
   <style>
     body {
       margin: 0;
+      background-color: #C4E1E6;
       font-family: Arial, sans-serif;
-      background-color: #C4E1E6; 
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
     }
 
     .container {
-      background-color: #d6d9e0; 
+      max-width: 600px;
+      margin: 60px auto;
+      background-color: #e9eaf4;
       padding: 40px;
-      width: 500px;
-      border-radius: 10px;
+      border-radius: 20px;
       text-align: center;
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
     }
 
-    h1 {
+    .container h2 {
+      font-size: 2rem;
       margin-bottom: 30px;
     }
 
-    .products {
-       display: flex;
+    .product-buttons {
+      display: flex;
       justify-content: center;
       gap: 40px;
       margin-bottom: 30px;
     }
 
     .product {
-      width: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .product img {
-       width: 100%;
-      height: 120px;
+      width: 160px;
+      height: 160px;
       object-fit: cover;
+      border-radius: 16px;
+      margin-bottom: 15px;
+     transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+    .product button {
+      background-color: #4c9c9c;
+      color: white;
+      border: none;
       border-radius: 8px;
-      border: 1px solid #aaa;
-    }
-    .product img:hover {
-      transform: scale(1.1);
-      transition: transform 0.3s ease;
-    }
-
-    .product p {
-      margin-top: 10px;
-      font-weight: bold;
-    }
-     .btn{
-            background: #8DBCC7;
-           color: black;
-            padding: 8px 15px;
-            padding-right: 5px;
-            padding-left: 5px;
-            border-radius: 5px;
-            text-decoration: none;
-            display: inline-block;
-            margin-left: 10px;
-            margin-top: 8px;
-
-        }
-        .btn:hover{
-            background-color: #A0D3E8;
-            transition: 0.5s ease-in-out;
-        }
-
-    .button {
-        padding: 10px 20px;
-        font-size: 16px;
-        color: black;
-        background-color: #8DBCC7;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.2s ease;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
     }
 
-    .btn:hover {
-        background-color: #79c1da;
-        transform: scale(1.05);
+    .product button:hover {
+      background-color: #3d8585;
+    }
+
+    .continue-btn {
+      margin-top: 20px;
+      background-color: #89c6c9;
+      color: black;
+      padding: 14px 40px;
+      font-size: 1.1rem;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .continue-btn:hover {
+      background-color: #71b3b6;
     }
   </style>
 </head>
 <body>
-
-  <div class="container">
-    <h1>Skin Care</h1>
-    <div class="products">
+   <div class="container">
+    <h2>Skin Care</h2>
+    <div class="product-buttons">
       <div class="product">
         <img src="../images/face-wash.jpg" alt="Face Wash">
-         <a href="../pages/facewash.html" class="btn">face-wash</a>
+      <a href="../pages/facewash.html"> <button>Face Wash</button></a>
       </div>
       <div class="product">
         <img src="../images/moisturizer.jpg" alt="Moisturizer">
-       <a href="../pages/moisturizer.html" class="btn">Moisturizer</a>
+      <a href="moisturizer.html"> <button>Moisturizer</button></a>
       </div>
       <div class="product">
         <img src="../images/sunscreen.webp" alt="Sunscreen">
-        <a href="../pages/sunscreen.html" class="btn">Sunscreen</a>
+      <a href="../pages/sunscreen.html"> <button>Sunscreen</button></a>
       </div>
     </div>
-    <button class="button" onclick="proceed()">Continue</button>
+    <button class="continue-btn" onclick="proceed()">Continue</button>
   </div>
 
   <script>
     function proceed() {
       alert("Proceeding to the next step!");
     }
-  </script>
-
+    </script>
 </body>
 </html>
