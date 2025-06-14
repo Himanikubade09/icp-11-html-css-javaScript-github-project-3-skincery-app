@@ -182,3 +182,118 @@
             font-size: 22px;
             text-align: center;
         }
+
+        @media (max-width: 768px) {
+            .nav-bar {
+                flex-wrap: wrap;
+                height: auto;
+                justify-content: center;
+                padding: 10px;
+            }
+
+            .menus {
+                font-size: 16px;
+                padding: 10px;
+            }
+
+            .logo {
+                width: 80px;
+                margin-bottom: 10px;
+            }
+
+            .heading {
+                font-size: 35px;
+            }
+
+            .service {
+                width: 140px;
+                height: 160px;
+                margin: 10px;
+            }
+
+            .service-img {
+                width: 60px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+
+            .service-para {
+                font-size: 18px;
+            }
+
+            .footer {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .footer-subdiv {
+                margin: 20px 0;
+            }
+
+            .footer-para,
+            .footer-links,
+            .links {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-bar {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px 0;
+            }
+
+            .menus {
+                font-size: 14px;
+                padding: 5px;
+            }
+
+            .logo {
+                width: 60px;
+                margin: 10px 0;
+            }
+
+            .heading {
+                font-size: 28px;
+            }
+
+            .service {
+                width: 120px;
+                height: 150px;
+                margin: 10px;
+            }
+
+            .service-img {
+                width: 50px;
+            }
+
+            .service-para {
+                font-size: 16px;
+            }
+
+            .footer {
+                padding: 30px 10px;
+            }
+
+            .footer-heading {
+                font-size: 20px;
+            }
+
+            .footer-para,
+            .footer-links,
+            .links {
+                font-size: 16px;
+            }
+
+            .footer-bottom {
+                font-size: 16px;
+            }
+
+            .navigation-arrow {
+                font-size: 35px;
+            }
+        }
+
