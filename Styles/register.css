@@ -83,21 +83,20 @@ label{
     margin-left: 70px;
     margin-right: 40px;
 }
-
-.login-now{
-    text-decoration: none;
-    color: aliceblue;
-    padding: 30px;
-    font-size: 15px;
-}
-
 .login-btn{
-      background-color: rgb(12, 12, 97);
-      border-radius: 20px;
-      height: 30px;
-      margin-left: 33%;
-      margin-bottom: 40px;
-      margin-top: 30px;
+      width: 25%;
+      padding: 10px;
+      border: none;
+      border-radius: 25px;
+      background-color: navy;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      margin-left: 30%;
+      transition: background 0.3s ease;
+    }
 
-}
-
+    .login-btn:hover {
+      background-color: #001f4d;
+    }
