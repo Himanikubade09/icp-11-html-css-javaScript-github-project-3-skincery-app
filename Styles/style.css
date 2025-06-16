@@ -102,6 +102,14 @@
       opacity: 1;
       z-index: 1;
     }
+
+    .services-container{
+        border: 20px solid black;
+        margin-top: 10px;
+        box-shadow: 40px 7px 20px 8px white;
+        border-style: none;
+        background-color: aliceblue;
+    }
         
     .footer{
             background-color:#C4E1E6;
@@ -165,6 +173,7 @@
             margin-right: 50px;
             margin-bottom: 50px;
             align-items: center;
+            background-color: white;
             margin-left: 40px;
         }
         .service:hover{
